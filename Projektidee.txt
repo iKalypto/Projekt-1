@@ -10,7 +10,7 @@ Er kann zu selbst festgelegten Zeiten visuell und optional akkustisch ueber den 
 
 Die Beschreibung der Projektidee ist gut.
 
-Leider ist die Projektidee eher eine Datenbankanwendung und bietet kaum Möglichkeiten zur Interaktion. Versuchen Sie deshalb eine Projektbeschreibung (wie in Kapr. 5 vorgegeben) zu folgenem Spiel zu erstellen: Arkham Horror http://www.brettspiele-report.de/arkham-horror/
+Leider ist die Projektidee eher eine Datenbankanwendung und bietet kaum Möglichkeiten zur Interaktion. Versuchen Sie deshalb eine Projektbeschreibung zu folgenem Spiel zu erstellen: Arkham Horror http://www.brettspiele-report.de/arkham-horror/
 
 Außerdem haben Sie leider die Datei für die Projektidee nicht da abgespeichert, wo Sie das laut Kap. 5 tun sollten. Bitte passen Sie das noch an.
 
