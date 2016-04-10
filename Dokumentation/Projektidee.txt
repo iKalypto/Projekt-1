@@ -1,5 +1,0 @@
-Mein Projekt ist ein "Smart Calender".  
-Hier kann man Termine wie Geburtstage und Klausuren speichern und sich erinnern lassen. 
-Die Zeit bis zum Termin kann durch einen Countdown angezeigt werden.
-Der Benutzer gibt das Datum und Details zu dem Termin ein. 
-Er kann zu selbst festgelegten Zeiten visuell und optional akkustisch ueber den kommenden Termin informiert werden. 
