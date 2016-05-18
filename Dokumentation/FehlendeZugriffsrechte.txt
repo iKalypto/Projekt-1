@@ -2,14 +2,42 @@ Die Git-Account, auf dessen Repository ich noch keine Zugriffsrechte habe.
 	ThomasGerhardt
 	veryseriousname
 	Vunit97
+<<<<<<< Updated upstream
 	
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
+	
+>>>>>>> origin/master
+=======
+	
+>>>>>>> e1e3123ff14865b02eb3ecc58984d071626c9493
+>>>>>>> Stashed changes
 === Aktualisierung ThiPhuongThaoHo, 2016-04-20 ===
 
  Die Git-Account, auf dessen Repository ich noch keine Zugriffsrechte habe.
 	ThomasGerhardt
         Vunit97
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e1e3123ff14865b02eb3ecc58984d071626c9493
+>>>>>>> Stashed changes
 === Aktualisierung ThiPhuongThaoHo, 2016-04-29 ===
 
  Die Git-Account, auf dessen Repository ich noch keine Zugriffsrechte habe.
 	ThomasGerhardt
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> e1e3123ff14865b02eb3ecc58984d071626c9493
+>>>>>>> Stashed changes
