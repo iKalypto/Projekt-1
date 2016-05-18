@@ -26,26 +26,6 @@ Wertung 2: Projektbeschreibung: gesamt: 1 / 10
 - Voraussetzung bekannten Wissens: 0
 
 === Feedback Ende ===
-=== Feedback Alpers, 2016-04-29 ===
-
-Bitte fügen Sie Ihre Beschreibung und diesen Kommentar in die Datei Projektidee.txt ein und löschen Sie danach diese Datei. Es soll für andere Studierende ohne weiteres Nachdenken möglich sein, sofort die Datei mit der Projektidee zu öffnen.
-
-Prüfen Sie auch nochmal, wozu Systeme wie Git da sind. Wenn Sie das verstanden haben, dann wissen Sie auch, warum Dateien wie Projektidee_neu.txt überflüssig sind.
-
-Jetzt zum eigentlichen Feedback: Dummerweise kann anhand des Textes, den Sie als Beschreibung verfasst haben niemand erkennen, wie das Spiel funktioniert. Hier müssen Sie nochmal nacharbeiten:
-- Arbeiten Sie heraus, was das eigentliche Spiel ausmacht.
-- Welche Interaktionsmöglichkeiten haben Spieler bei der geplanten webbasierten Umsetzung?
-
-Wertung 2: Projektbeschreibung: gesamt: 1 / 10
-- Interaktionsmöglichkeit: 0
-- Knappe aber klare Beschreibung: 1
-- Werbeslogans u.ä.: 0
-- Designaspekte: 0
-- Voraussetzung bekannten Wissens: 0
-
-=== Feedback Ende ===
-
-
 
 
 
