@@ -1,3 +1,29 @@
+=== Projektidee ThPhuongThaoHo, 2016-05-22 ===
+
+
+Die Projektidee ist die Umsetzung des Brettspiels Arkham Horror als eine webbasierte Anwendung, bei dem ein bis acht Spieler die Rollen von Ermittlern übernehmen, die alle Tore dauerhaft vor dem Erwachen eines Großen Alten durch das Bekämpfen von Monstern schließen müssen, um die Menschheit in der Stadt Arkham und den Rest der Welt somit vor dem Untergang bewahren zu können.
+
+- Der Nutzer loggt sich ein (falls er schon einen Account erstellt hat), sonst muss der Benutzer einen Account erstellen und seine Daten werden in einer Datenbank gespeichert.
+- Der Nutzer kann nicht nur seine persönliche aktuelle Highscore in seinem LogIn - Bereich sehen sondern auch den Highscore mit anderen vergleichen.
+- Der Spieler wählt einen der vorgefertigten Charaktere. Nach dem erfolgreichen Auswählen wird ein Ermittler‐Charakterbogen gezeigt. Dieser Charakterbogen enthält ein dazugehöriges Startfeld auf dem Spielbrett,
+den festgelegten Besitz (z.B. Startguthaben in Dollar), zufälligen Besitz (Gegenstände, Zauber...), die Höhe der geistigen Gesundheit und Ausdauer, die Fertigkeiten‐Startwerte (z.B. für Geschwindigkeit, Schleichen, Kampf, Wille,
+Wissen, Glück). Alle Eigenschaften im Charakterbogen werden sofort eingesetzt und die Spieler können diese verwenden.
+- Der Nutzer muss außerdem einen zufälligen "Großen Alten" ziehen.
+- Das Spiel wird in 5 Phasen (Unterhalt, Bewegung, Begegnungen in Arkham, Begegnungen in "Anderen Welten", Mythos) gespielt.
+- Der Spieler kann seinen Charakter bewegen. Die Bewegung des Charakters ist möglich in alle Richtungen (links,rechts, vorwärts, rückwärts). Pro Punkt bei Geschwindigkeit kann ein Standort oder Straßengebiet
+betreten werden. Wenn der Ermittler am Zielort (Bewegung beendet) ist und liegen dort ein oder mehrere Hinweismarker, dann darf der Spieler beliebig viele davon sofort aufnehmen.
+- Wenn ein Spieler ein Feld mit einem oder mehreren Monstern betritt, dann muss er gegen jedes kämpfen oder ihm ausweichen.
+- Bei beiden Aktionen muss der Spieler würfeln. Die Anzahl der Würfe hängt von errechneten Werten ab. Es muss mindestens 1 erfolgreicher Würfelwurf (in der Regel die Zahl 5 oder 6) dabei sein. Misslingt die Probe, dann kommt es zum Kampf 
+und vorher gibt es noch 1x den auf dem Monstermarker genannten Schaden. Verschiedene Zufallsereignisse können das Vorgehen der Spieler positiv und negativ beeinflussen. 
+- Am Ende jedes Zuges zieht der Startspieler eine Karte vom Mythosstapel, was dazu führt, dass sich ein neues Tor öffnet, neue Monster in Arkham eindringen,
+ bereits vorhandene Monster bewegen oder andere den Spielmechanismus beeinflussende Ereignisse eintreten.
+- Nachdem die Mythoskarte abgearbeitet ist wechselt der Startspielermarker im Uhrzeigersinn zum nächsten Spieler, welcher die neue Runde beginnt.
+- Das Spiel endet mit einem Sieg, wenn alle Tore in Arkham geschlossen sind und die Spieler Tortrophäen >= Spieleranzahl oder ‐ mindestens 6 "Ältere Zeichen" ausliegen oder der "Große Alte" gebannt, d.h. im Endkampf besiegt wurde.
+- Eine Highscoretabelle (der Highscore aller Spieler) wird am Ende gezeigt.
+
+
+=== Projektidee Ende ===
+
 
 === Projektidee ThPhuongThaoHo, 2016-04-20 ===
 
