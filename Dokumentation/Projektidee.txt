@@ -1,4 +1,31 @@
-=== Projektidee ThPhuongThaoHo, 2016-05-22 ===
+=== Projektidee ThiPhuongThaoHo, 2016-05-31 ===
+Die Projektidee ist die Umsetzung des Brettspiels Arkham Horror als eine webbasierte Anwendung, bei dem ein bis acht Spieler an einem Rechner zusammen spielen können.
+Die Spieler, die Rollen von Ermittlern übernehmen, müssen alle Tore dauerhaft vor dem Erwachen eines Großen Alten durch das Bekämpfen von Monstern schließen um die Menschheit in der Stadt Arkham und den Rest der Welt somit vor dem Untergang bewahren zu können.
+Derjenige gewinnt, der die meisten Tore geschlossen hat.
+
+Interaktionsmöglichkeiten:
+
+- Startbildschirm soll mit einem Slogan: „Wer ist der Held von Arkham?“ gezeigt werden
+- Es soll einen LogIn-Bereich geben. Im LogIn-Bereich fragt die Anwendung den Benutzer nach einen Charakter und dazu gibt sie eine Charakterliste aus. Sie setzt automatisch die Fähigkeiten des Charakters in Benutzer ein
+- Die Webanwendung soll die Spielzüge des Benutzers nach der Anzahl der Augen der virtuellen Würfel zuweisen 
+- Die Webanwendung kann die Monster steuern
+- Die Webanwendung soll die übrige Zeit nach dem Start berechnen und als ein Countdown zeigen.
+- Sie soll alle Aktionen des Spielers ausführen (z.B. die Durchführung des Würfelns, die Einsammlung der Gegenstände, den Kampf gegen Monster oder dem Ausweichen von Monster)
+- Die Anwendung soll die Anzahl der Gegenstände berechnen und das Ergebnis zeigen.
+- Sie soll das Ergebnis des Kampfs gegen Monster zeigen und die Anzahl der Spielleben zeigen oder  das Schliessen eines Tors durchführen
+     - Die Anzahl des Spielleben wird um 1 verringert, wenn der Spieler den Kampf gegen Monster verliert. (Normalerweise setzt die  Anwendung immer 3 Leben)
+     - Die Anwendung schliesst ein Tor, wenn der Spieler gewinnt. Außerdem zählt die Anwendung die Anzahl der geschlossenen Tore um 1 (in Highscore) hoch
+- Wenn die Anzahl eines Benutzer gleich 0 ist, soll die Anwendung alle Aktionen des Benutzer beenden, seinen Highscore berechnen,speichern und anzeigen. Die Anwendung setzt sofort einen nächsten Benutzer ein und startet von Anfang neu (LogIn-Bereich,…)
+- Die Webanwendung soll alle genannten Aktionen für alle Spieler durchführen.
+- Die Webanwendung soll am Ende den besten Highscore berechnen und den Gewinner ermitteln
+
+
+
+=== Projektidee Ende ===
+
+
+
+=== Projektidee ThiPhuongThaoHo, 2016-05-22 ===
 
 
 Die Projektidee ist die Umsetzung des Brettspiels Arkham Horror als eine webbasierte Anwendung, bei dem ein bis acht Spieler die Rollen von Ermittlern übernehmen, die alle Tore dauerhaft vor dem Erwachen eines Großen Alten durch das Bekämpfen von Monstern schließen müssen, um die Menschheit in der Stadt Arkham und den Rest der Welt somit vor dem Untergang bewahren zu können.
