@@ -6,7 +6,7 @@ Derjenige gewinnt, der die meisten Tore geschlossen hat.
 Interaktionsmöglichkeiten:
 
 - Startbildschirm soll mit einem Slogan: „Wer ist der Held von Arkham?“ gezeigt werden
-- Es soll einen LogIn-Bereich geben. Im LogIn-Bereich fragt die Anwendung den Benutzer nach einen Charakter und dazu gibt sie eine Charakterliste aus. Sie setzt automatisch die Fähigkeiten des Charakters in Benutzer ein
+- Es soll einen LogIn-Bereich geben. Im LogIn-Bereich fragt die Anwendung den Benutzer nach einen Charakter und dazu gibt sie eine Charakterliste aus. Sie setzt automatisch die Fähigkeiten des Charakters in der Figur des Benutzers ein
 - Die Webanwendung soll die Spielzüge des Benutzers nach der Anzahl der Augen der virtuellen Würfel zuweisen 
 - Die Webanwendung kann die Monster steuern
 - Die Webanwendung soll die übrige Zeit nach dem Start berechnen und als ein Countdown zeigen.
