@@ -4,131 +4,143 @@
 
 <head>
 
-<title> Projekt1 / Arkham Horror </title> 
+<title>  Arkham Horror  </title> 
 
 </head>
 <body>
-<!-- Version 1 --->
-<!--		Die strukturellen Elemente  des Spiels "Arkham Horror"
-- Log-In-Maske 
--- Eingabefeld fuer die Anzahl der Spieler
--- Startspieler auswaehlen
--- Tabelle, 6 x 5 Felder (Jedes Feld soll ein Bild fuer die Spielfigur anzeigen und welche Figur der Spieler werden will . Wenn Nutzer ein Feld anwaehlen, soll ein Menue erscheinen.
--- Menue fuer jedes Feld der Tabelle mit Texteintraegen (Eintrag fuer den Namen des aufgewaehlten Startspiel)
--- Schaltflaeche fuer die Bestaetigung des Spielernames und fuer den Start des Spiels
+<!--
+====================================== Strukturelle Elemente ==============================
+1. STARTSEITE 
+        - Home (Durch Klicken auf  Home wird das Spiel Arkham Horror gezeigt) => 2.1
+        - Zum Spielen (Durch Klicken auf  wird ein neues Fenster geöffnet) => 2.2
+    
+2.1. HOME 
+    - Textfeld ("Arkham Horror")
+    - Textfeld (Slogan:„Wer ist der Held von Arkham?“)
+    - Bildbereich (Bild des gesamten Spiels)
+    - Bewertungszeichen (es zeigt, wie das Spiel anderen Benutzern gefallen hat.
+                         z.B. 5 Sterne-Zeichen bedeutet, dass das Spiel am Beliebsten ist)
+    
+    2.1.1 Container KURZVORSTELLUNG
+         - Textfeld (die Geschichte der Stadt Arkham)
+         
+    2.1.2 Container SPIELANLEITUNG
+         - Textfeld (Spielregeln)
+         - Link (zu mehr Tips) => öffnet 3.5
 
-- Schaltflaeche fuer Spielanleitung, mit 2 Buttons
--- 1.Buttons:  "Mehr Tipps" zum lesen,per Mausklick bedienbar
--- 2.Buttons: "Ueberspringen". Der Spieler bestaetigt per Mausklick um den Spiel sofort anzufangen.
+2.2. ZUM SPIELEN: beinhaltet Log-In-Maske (2 x Container)                 
+    2.2.1 Container EINLOGGEN: es wird durch Klicken auf Einloggen geöffnet.
+         - Eingabefeld (für Nutzername)
+         - Eingabefeld (die Eingabe des Passworts wird nicht angezeigt)
+         - Button ("Anmelden"), um die eingegebene Daten zu bestätigen
+         - Textfeld ("ungültige Nutzername oder Passwort"): wenn der Benutzer falsch eingegeben hat
+                 - Link (Zur Hilfe, um einen Account/ Passwort zurückzusetzen) => öffnet 3.1
+         - Textfeld ("Dieser Account existiert nicht"): wenn sich der Benutzer noch nicht angemeldet hat
+                 - Link (Zur Registrierung) => öffnet 2.2.2
 
-- Spielfeld
--- Hintergrundbild : die Stadt Arkham
--- Menue fuer jedes Spielfeld mit Schaltflaechen ( die "Anderen Welten", welche die Spieler durch die aufgehenden Tore besuchen können)
--- Unterer Teil des Spiel :  Anzeige für den Terrorlevel in der Stadt ( es wird von 1 bis 10 angezeigt)
+    2.2.2 Container REGISTRIEREN: es wird durch Klicken auf Registrieren oder auf den Link (Zur Registrierung) geöffnet.
+         - Eingabefeld (für Nutzername)
+         - Eingabefeld (für E-Mail-Adresse)
+         - Eingabefeld (die Eingabe des Passworts wird nicht angezeigt)
+         - Eingabefeld (für die Wiederholung des Passworts)
+         - Textfeld 
+                 - Link (Zu Nutzungsbedingungen) => öffnet 3.4
+         - Button ("Registrieren"), um die eingegebene Daten zu bestätigen
+         - Textfeld (Zur Bestätigung der Erstellung eines neuen Account)
+         
+3.1 Container ("Hilfe")
+3.2 Container ("Datenschutzerklärung")
+3.3 Container ("Impressum")
+3.4 Container ("Nutzungsbedingungen")
+         - Button("Ich habe verstanden")
+3.5 Container ("Mehr Tips")
 
-- Textfeld mit Informationen und Anweisungen ( z.B. Jeder Spieler erhält den auf seinem Ermittler-Charakterbogen angezeigten Besitz, 
-oder jede Runde endet mit dem Ziehen und Spielen einer Mythoskarte)
+============================= Nach dem sich der Benutzer erfolgreich eingeloggt hat =================
+1. SPIELVORBEREITUNG
+     - Textfeld (fragt den Benutzer nach der Anzahl der Spieler)
+     - Eingabefeld (Die Anzahl der Spieler eingeben)
+     
+     1.1. Container ("Der erste Spieler")
+     - Textfeld (fragt den Benutzer nach einem Charakter)
+     - Charaktersliste
+             - Bildbereiche (Bilder aller Charakte)
+             - Textfeld (Fähigkeiten eines Charakters): wird durch Klick direkt auf ein entsprechenden Bild (in Bildbereiche) gezeigt     
+     - Eingabefeld (der Benutzer gibt einen Namen fuer ausgewählte Charakter)
+     - Textfeld (informiert den Beutzer über sein virtuelles Startguthaben)
+     
+     1.2. Container ("Der zweite Spieler")
+     - Textfeld (fragt den Benutzer nach einem Charakter)
+     - Charaktersliste
+             - Bildbereiche (Bilder aller Charaktere)
+             - Textfeld (Fähigkeiten eines Charakters): wird durch Klick direkt auf ein entsprechenden Bild (in Bildbereiche) gezeigt
+     - Eingabefeld (der Benutzer gibt einen Namen fuer ausgewählten Charakter)
+     - Textfeld (informiert den Beutzer über sein virtuelles Startguthaben)
+                 .
+                 .
+                 .
+                 .
+     1.n.  Container ("Der n-te Spieler")
+     - Textfeld (fragt den Benutzer nach einen Charakter)
+     - Charaktersliste
+             - Bildbereiche (Bilder aller Charaktere)
+             - Textfeld (Fähigkeiten eines Charakters): wird durch Klick direkt auf ein entsprechenden Bild (in Bildbereiche) gezeigt
+     - Eingabefeld (der Benutzer gibt einen Namen fuer ausgewählten Charakter)
+     - Textfeld (informiert den Benutzer über sein virtuelles Startguthaben)
+    
+    - Button("los"): zum spielen
+    
+2. SPIELABLAUF
+     - Tabelle, 10 x 10 Felder (Jedes Feld soll ein Bild anzeigen, das ein Feld des Spielbretts ist. Wenn Nutzer ein Feld anwählen, soll ein Menü erscheinen.)
+             - Menü für jedes Feld der Tabelle mit Texteinträgen (Eintrag für "Kämpfen", "Ausweichen"), wenn der Benutzer zufaellig auf einen gleichen Feld mit einem Monster betritt.
+             - Menü für jedes Feld der Tabelle mit Texteinträgen (Eintrag für "Einsammeln", "Nicht einsammeln"), wenn es Gegenstände auf einen zuƒaelligen Feld gibt, wo der Benutzer lang geht
+     - Textfeld (zeigt ein Countdown oben auf der zentralen Seite)
+     - Textfeld (Nummerierung des aktuellen Spielers auf der linken Seite)
+     - Lebenszeichen (Beim Start ist die Anzahl der Leben von entsprechenden Spieler immer 3 in rechten Seite)
+     - Textfeld (Die aktuelle Anzahl und Arten von Gegenständen)
+     - Hintergrundbild: die Stadt Arkham in 2D
+     - Textfeld (fragt den Benutzer nach Spielzug)
+             - Button("Würfeln")
+     - Textfeld ("Die Anzahl des Zugs ist..., von... nach....")
+             
+3. SPIELENDE
+    - Textfeld ("Highscore")
+    - Textfeld (die Anzahl der geschlossenen Tore)
+    - Textfeld (die Anzahl des übrigen Spielleben)
+    - Textfeld (die Anzahl der getöteten Monster)
+        
+4. HIGHSCORE-VERGLEICH
+    - Textfeld ("Die besten Spieler")
+    - Tabelle  mit Highscore-Liste
+             - Textfeld (Name des Charakters)
+             - Textfeld (die Anzahl der geschlossenen Tore jedes Charakters)
+    - Textfeld ("Der Gewinner ist...")
 
-- Tabelle, 6 x 2 Felder ( Das zeigt, was zu einzelnen Spieler gehoert. 
-z.B. Geld-, Ausdauer, Geistige Gesundheit-Marker, Fertigkeitenanzeiger und Erster-Spieler-Marker  sowie aktuelle Zeitlimit )
-
-- Hintergrundmusik :  entsprechend viele verschiedenen Musik fuer jeden Terrorlevel
-
-- Menue fuer die Eigenschaften  (z.B. Geschwindigkeit und Schleichen)
+5. Arkham - Forum
+     - Eingabetext (der Benutzer kann ein Kommentar eingeben)
+     - Eingabetext (Bewertungszeichen eingeben)
+     - Button ("Absenden")
+     
+================================================== ENDE==============================================================     
 -->
 </body>
+</html>
 
-<!-- Finde alles gut. Evtl. noch sowas , wie eine Highscore-Liste mit den besten Spielern hinzufügen -->
-
-<!-- Schon sehr ausführlich und zutreffend beschrieben! Sehr gut! -->
-</html> 
-
-SusannaAlbrecht
-Ich schlage noch Folgendes vor:
-- für die 5 Würfel entsprechend viele Ausgaben, in denen nach Anklicken per Zufallsgenerator je eine der Zahlen 1 bis 6 angezeigt wird
-- wenn gewünscht, ein Startbild mit Schriftzug als Opener, mit Klick geht es weiter zum eigentlichen Spiel
-
-
-
-
-<!DOCTYPE html>
-
-<html>
-
-<head>
-
-<title> Projekt1 / Arkham Horror </title> 
-
-</head>
-<body>
-<!-- ***************************  Version 2   *********************** -->
-
-<!--		 
-    LOG-IN-MASKE 
-    * Eingabefeld fuer die Anzahl der Spieler
-    * Startspieler auswaehlen
-    * Tabelle, 6 x 5 Felder (Jedes Feld soll ein Bild fuer die Spielfigur anzeigen und welche Figur der Spieler werden will . Wenn Nutzer ein Feld anwaehlen, soll ein Menue erscheinen.
-    * Menue fuer jedes Feld der Tabelle mit Texteintraegen (Eintrag fuer den Namen des aufgewaehlten Startspiel)
-    * Schaltflaeche fuer die Bestaetigung des Spielernames und fuer den Start des Spiels
-
-
-    SCHALTFLAECHE FUER SPIELANLEITUNG (2 Buttons)
-    * 1.Buttons:  "Mehr Tipps" zum lesen,per Mausklick bedienbar
-    * 2.Buttons: "Ueberspringen". Der Spieler bestaetigt per Mausklick um den Spiel sofort anzufangen.
-
-
-    SPIELFELD
-    * Hintergrundbild : die Stadt Arkham
-    * Menue fuer jedes Spielfeld mit Schaltflaechen ( die "Anderen Welten", welche die Spieler durch die aufgehenden Tore besuchen können)
-    * Unterer Teil des Spiel :  Anzeige für den Terrorlevel in der Stadt ( es wird von 1 bis 10 angezeigt)
-    * Hintergrundmusik: entsprechend viele verschiedenen Musik fuer jeden Terrorlevel
-
-
-    TEXTFELD
-    * Informationen und Anweisungen ( z.B. Jeder Spieler erhält den auf seinem Ermittler-Charakterbogen angezeigten Besitz, 
-    oder jede Runde endet mit dem Ziehen und Spielen einer Mythoskarte)
-
-
-    TABELLE
-    * 6 x 2 Felder ( Das zeigt, was zu einzelnen Spieler gehoert.z.B. Geld-, Ausdauer, Geistige Gesundheit-Marker, Fertigkeitenanzeiger und Erster-Spieler-Marker  sowie aktuelle Zeitlimit )
-
-
-    MENUE
-    * fuer die Eigenschaften  (z.B. Geschwindigkeit und Schleichen)
- 
-    AUSWERTUNG
-    * Tabelle (mit einer Highscore-Liste aller Spieler)
-    * Textfeld (Text mit dem besten Highscore des besten Spielers)
-
-
--->
-
-</body>
-</html> 
 
 <!--
 === Feedback Alpers, 2016-04-29 ===
-
 Zunächst sollten Sie meine Anmerkungen zur Spielbeschreibung durcharbeiten, denn da müssen Sie noch viel nachholen.
-
 Dann haben Sie hier (genau wie bei der Erstellung der Datei Projektidee_neu.txt) gezeigt, dass Sie den Sinn einer Versionierungssoftware (wie Git) nicht verstanden haben. Versuchen Sie nachzuvollziehen, was dieser Zweck ist. An der Tatsache, dass Sie hier zwei verschiedene Sammlungen von strukturellen Elementen aufgeführt haben ist jedenfalls erkennbar, dass Sie Git noch nicht vollständig nutzen.
-
 Zu den gewählten strukturellen Elementen: 
 - Die strukturellen Elemente sind zum Teil etwas zu umfangreich beschrieben; aber insgesamt sieht das gut aus.
 - Bitte mischen Sie nicht Begriffe wie Button und Schaltfläche: Entscheiden Sie sich für eines davon.
 - Aufgrund der fehlenden Beschreibung ist die Anzahl (insbesondere unterschiedlicher) struktureller Elemente im Moment sehr begrenzt.
-
 Wertung 3: Ausarbeitung der strukt. Elem.: gesamt: 3 / 10
 - Knappe Form: 2
 - Für je 5 unterschiedl. strukt. Elem (keine Gruppierungen): 1
 - Vermischung strukt. Elem. und Gruppierung: 0
-
 Allerdings wirkt Ihre Aufstellung so, als wenn Sie planen, dass alle Spieler sich um einen Rechner versammeln. Und genau hier kommt die fehlende Beschreibung zum Tragen: Da die momentan fehlt, ist unklar, wie das Spiel ablaufen soll. Deshalb besteht Ihre nächste Aufgabe aus zwei Teilen:
-
 1. Erstellen Sie die Spielbeschreibung wie in Kap. 5 vorgegeben, aber insbesondere so, dass es die Grundlage für die Ausarbeitung der strukturellen Elemente bildet. Beachten Sie dabei bitte insbesondere, dass der Kernpunkt des Projekts (in diesem Semester) die Entwicklung interaktiver Möglichkeiten ist. Es geht im Gegensatz dazu nicht darum, ein vorgegebenes Spiel umzusetzen, sondern darum, es als Basis zu verwenden, um ein interaktives Spiel zu entwickeln.
 2. Erweitern Sie dann die Sammlung der strukturellen Elemente.
-
 Da es für die nächste Aufgabe essentiell ist, dass Sie diese beiden Aufgaben sorgfältig erledigen, gebe ich die für Sie noch nicht frei.
-
 === Feedback Ende ===
 -->
